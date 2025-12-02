@@ -1,4 +1,4 @@
-import { Package, ShieldCheck, Truck, CreditCard, ShoppingBagOpen } from '@phosphor-icons/react'
+import { ShieldCheck, Truck, CreditCard, ShoppingBagOpen } from '@phosphor-icons/react'
 
 function Home() {
   return (
