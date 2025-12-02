@@ -29,7 +29,7 @@ function Navbar() {
               Categorias
             </Link>
             <Link 
-              to="/cadastrar-categoria" 
+              to="/cadastrarcategoria" 
               className="bg-white text-blue-600 px-4 py-2 rounded font-semibold hover:bg-gray-100 transition duration-300"
             >
               Cadastrar Categoria

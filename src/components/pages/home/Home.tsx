@@ -1,4 +1,5 @@
 import { ShieldCheck, Truck, CreditCard, ShoppingBagOpen } from '@phosphor-icons/react'
+import ListaCategoria from '../../categoria/listacategoria/ListaCategoria'
 
 function Home() {
   return (
@@ -86,8 +87,13 @@ function Home() {
             Explorar Categorias
           </button>
         </div>
+        <ListaCategoria />
+
+        
+  
       </section>
     </div>
+    
   )
 }
 
