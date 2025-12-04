@@ -11,7 +11,7 @@ function Navbar() {
             <div className="bg-white text-blue-600 rounded-lg p-2">
               <House size={32} weight="fill" />
             </div>
-            <span className="text-2xl font-bold">Farmácia</span>
+            <span className="text-2xl font-bold">Farmácia Legal 💊</span>
           </Link>
 
           {/* Menu */}

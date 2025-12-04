@@ -55,8 +55,8 @@ function Footer() {
         {/* Copyright */}
         <div className="border-t border-gray-800 mt-8 pt-6 text-center text-gray-400">
           <p className="flex items-center justify-center gap-2">
-            Feito com <Heart size={20} weight="fill" className="text-red-500" /> 
-            por Você © {currentYear}
+            Desenvolvido por Thuany Silva<Heart size={20} weight="fill" className="text-red-500" /> 
+             {currentYear}
           </p>
         </div>
       </div>

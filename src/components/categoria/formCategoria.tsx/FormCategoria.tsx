@@ -77,14 +77,14 @@ function FormCategoria() {
   }
 
   return (
-    <div className="min-h-[70vh] container flex flex-col items-center justify-center mx-auto">
-      <h1 className="text-4xl text-center my-8">
+    <div className="container mx-auto flex flex-col items-center py-12">
+      <h1 className="my-8 text-center text-4xl font-bold text-slate-700">
         {id === undefined ? "Cadastrar Categoria" : "Editar Categoria"}
       </h1>
 
       <form className="w-1/2 flex flex-col gap-4" onSubmit={gerarNovaCategoria}>
         <div className="flex flex-col gap-2">
-          <label htmlFor="nome">Categoria</label>
+          <label htmlFor="nome"></label>
           <input
             type="text"
             placeholder="Categoria"
@@ -102,19 +102,19 @@ function FormCategoria() {
         >
          {isLoading && (
                 <div className="flex justify-center w-full h-full py-8">
-                    <SyncLoader color="#3800d1ff" size={32} />
+                    <SyncLoader color="#226efb" size={32} />
                 </div>
             )}
       
         </button> */}
         <button
-                className="flex justify-center w-full py-2 mt-2 text-base font-semibold rounded-lg
-                text-white bg-indigo-300 hover:bg-indigo-200 transition"
+                className="flex justify-center w-full py-4 mt-4 text-base font-semibold rounded-lg
+                text-blue- bg-indigo-300 hover:bg-indigo-200 transition"
                 type="submit"
             >
                 {isLoading ?
                 <ClipLoader
-                color="#7c8753"
+                color="#101828"
                 size={24}
                 />
                 :
