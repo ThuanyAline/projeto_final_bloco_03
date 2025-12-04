@@ -1,8 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-    baseURL: 'https://farmacia-ug0p.onrender.com'
-})
+baseURL: import.meta.env.VITE_API_URL})
 
 export const buscar = async (url: string, setDados: Function) => {
     const resposta = await api.get(url)
