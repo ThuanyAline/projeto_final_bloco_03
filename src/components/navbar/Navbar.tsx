@@ -11,7 +11,7 @@ function Navbar() {
             <div className="bg-white text-blue-600 rounded-lg p-2">
               <House size={32} weight="fill" />
             </div>
-            <span className="text-2xl font-bold">Farmácia</span>
+            <span className="text-2xl font-bold">Farmácia Legal 💊</span>
           </Link>
 
           {/* Menu */}
@@ -29,7 +29,7 @@ function Navbar() {
               Categorias
             </Link>
             <Link 
-              to="/cadastrar-categoria" 
+              to="/cadastrarcategoria" 
               className="bg-white text-blue-600 px-4 py-2 rounded font-semibold hover:bg-gray-100 transition duration-300"
             >
               Cadastrar Categoria
